@@ -30,3 +30,4 @@ example_loggers
 experiments
 # Ignore large model files
 pretrained/*.pt
+engineering_challenges.md
