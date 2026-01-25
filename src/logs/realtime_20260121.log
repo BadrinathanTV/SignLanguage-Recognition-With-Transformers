@@ -1,0 +1,3 @@
+2026-01-21 12:39:26,896 - realtime - INFO - [realtime]📹 Initializing real-time sign language detection...[/realtime]
+2026-01-21 12:39:28,570 - realtime - INFO - [info]Loading model from: /media/badrinathan/Drive-2/Projects/SignDETR/pretrained/4426_model.pt[/info]
+2026-01-21 12:39:29,513 - realtime - INFO - [realtime]📹 Starting camera capture...[/realtime]
