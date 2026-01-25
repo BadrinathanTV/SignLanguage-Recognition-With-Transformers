@@ -199,24 +199,7 @@ class SignLanguageLogger:
             console=self.console,
         )
 
-    def print_banner(self):
-        """Print the Sign Language Detection project banner."""
-        banner = """
-             ███╗   ██╗ ██████╗ ██████╗ ██████╗ ██╗   ██╗
-            ████╗  ██║██╔═══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝
-           ██╔██╗ ██║██║   ██║██║  ██║██║  ██║ ╚████╔╝
-          ██║╚██╗██║██║   ██║██║  ██║██║  ██║  ╚██╔╝
-         ██║ ╚████║╚██████╔╝██████╔╝██████╔╝   ██║
-        ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═════╝    ╚═╝
 
-╔═══════════════════════════════════════════════════════════╗
-║  🤟 Sign Language Detection with DETR                     ║
-║  🎯 Real-time Hand Sign Recognition                       ║
-║  🏋️  DETR (Detection Transformer) Model                    ║
-║  📊 Advanced Computer Vision Pipeline                     ║
-╚═══════════════════════════════════════════════════════════╝
-        """
-        self.console.print(Panel(banner, style="bold cyan", border_style="blue", expand=False))
 
     def print_model_summary(self, model_info: Dict[str, Any]):
         """Print model architecture summary."""

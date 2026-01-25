@@ -14,7 +14,7 @@ from utils.setup import get_classes
 if __name__ == '__main__': 
     # Initialize logger and handlers
     logger = get_logger("training")
-    logger.print_banner()
+
     
     train_dataset = DETRData('data/train') 
     train_dataloader = DataLoader(train_dataset, batch_size=32, collate_fn=stacker, drop_last=True, num_workers=4) 

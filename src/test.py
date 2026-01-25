@@ -14,7 +14,7 @@ logger = get_logger("test")
 test_handler = TestHandler()
 detection_handler = DetectionHandler()
 
-logger.print_banner()
+
 
 num_classes = 3
 test_dataset = DETRData('data/test', train=False) 

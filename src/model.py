@@ -48,17 +48,8 @@ class DETR(nn.Module):
         self.model_handler = ModelHandler()
         
         # Log model configuration
-        model_config = {
-            "Model Type": "DETR (Detection Transformer)",
-            "Number of Classes": num_classes,
-            "Hidden Dimension": hidden_dim,
-            "Attention Heads": nheads,
-            "Encoder Layers": num_encoder_layers,
-            "Decoder Layers": num_decoder_layers,
-            "Object Queries": num_queries,
-            "Backbone": "ResNet-50 (ImageNet pretrained)"
-        }
-        self.model_handler.log_model_architecture(model_config)
+
+
 
         # create ResNet-50 backbone
         self.backbone = resnet50(weights=ResNet50_Weights.IMAGENET1K_V1)

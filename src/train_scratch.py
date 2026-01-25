@@ -14,7 +14,7 @@ from utils.setup import get_classes
 if __name__ == '__main__': 
     # Initialize logger and handlers
     logger = get_logger("training_scratch")
-    logger.print_banner()
+
     logger.info("NOTE: Training from SCRATCH (Backbone is ImageNet initialized, Transformer is random)")
     
     train_dataset = DETRData('data/train') 

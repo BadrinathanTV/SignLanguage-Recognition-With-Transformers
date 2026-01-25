@@ -15,7 +15,6 @@ from pathlib import Path
 logger = get_logger("realtime")
 detection_handler = DetectionHandler()
 
-logger.print_banner()
 logger.realtime("Initializing real-time sign language detection...")
 
 transforms = A.Compose(

@@ -15,7 +15,7 @@ class CaptureImages():
         self.classes = classes
         
         # Initialize logger and show banner
-        logger.print_banner()
+
         logger.capture("Image capture system initialized")
         
         # Verify camera connection
